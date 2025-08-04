@@ -24,7 +24,7 @@ This project demonstrates how to:
 ## ⚙️ How It Works
 
 1. **Data Loading**: Reads `reviews.csv` with text and binary sentiment labels.
-2. **Preprocessing**: (Optional) Clean, lowercase, remove punctuation.
+2. **Preprocessing**: Clean, lowercase, remove punctuation.
 3. **Vectorization**: TF-IDF or Count-based vector representation.
 4. **Training**: Logistic Regression trained using gradient descent.
 5. **Evaluation**: Metrics computed on held-out test set.
