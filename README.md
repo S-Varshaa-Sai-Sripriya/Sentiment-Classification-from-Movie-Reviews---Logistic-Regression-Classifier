@@ -31,6 +31,25 @@ This project demonstrates how to:
 
 ---
 
+## 📊 Dataset Explanation  
+
+This project uses a **synthetic movie reviews dataset** (`reviews.csv`) containing **1,000 entries**. Each entry consists of:  
+
+- **Review (text)**: A short sentence or phrase representing a user’s movie review.  
+- **Label (0/1)**: A binary value indicating the sentiment of the review:  
+  - `0` → Negative sentiment  
+  - `1` → Positive sentiment  
+
+### Example Entries  
+| Review                          | Label |
+|----------------------------------|-------|
+| "The movie was fantastic!"       | 1     |
+| "I did not enjoy the storyline." | 0     |
+| "Great acting and visuals."      | 1     |
+| "Boring and too slow."           | 0     |
+
+---
+
 ## 📊 Evaluation Metrics
 
 Metrics are printed after training:
